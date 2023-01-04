@@ -1,4 +1,4 @@
-import requests from "../../utils/requests"
+import requests from "../utils/requests"
 import { useRouter } from "next/router"
 export default function Nav(){
     const router=useRouter();
